@@ -1,4 +1,10 @@
 {
+  "files.exclude": {
+    "**/next-env.d.ts": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    ".turbo": true
+  },
   "eslint.workingDirectories": [
     {
       "mode": "auto"
