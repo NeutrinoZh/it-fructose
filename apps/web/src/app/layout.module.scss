@@ -1,3 +1,7 @@
-.body {
+@import "../styles/consts.scss";
+
+.rootLayout {
     margin: 0px;
+    padding: 0px;
+    background-color: $color-background;
 }

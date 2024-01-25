@@ -1,4 +1,4 @@
-import styles from "./page.module.scss";
+import styles from "./layout.module.scss";
 import React from "react";
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={styles.body}>{children}</body>
+      <body className={styles.rootLayout}>{children}</body>
     </html>
   );
 }
