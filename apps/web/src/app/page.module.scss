@@ -1,0 +1,32 @@
+@import "../styles/consts.scss";
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 5%;
+
+    width: 45%;
+
+    @media (max-width: 979px) {
+        width: 50%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.titleBlock {
+    text-align: center;
+
+    p {
+        color: $color-dark;
+        font-size: larger;
+    }
+}
