@@ -10,10 +10,10 @@
     a {
         margin: 1% 2% 2% 1%;
 
-        text-decoration: none;
         color: $color-dark;
+        text-decoration: none;
+        font-family: 'Libre Franklin', -apple-system, 'Helvetica Neue', sans-serif;
         font-size: larger;
-        font-weight: bold;
 
         cursor: pointer;
 
@@ -21,12 +21,13 @@
 
         &:first-child {
             margin-right: auto;
+            font-weight: 600;
         }
 
         &:hover {
             color: $color-gray;
+            text-decoration: underline;
         }
-
 
         @media (max-width: 768px) {
             &:last-child {

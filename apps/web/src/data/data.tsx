@@ -4,6 +4,10 @@ const data = {
         country: "Ukraine",
         job: "Unity Developer"
     },
+    footer: {
+        author: "© Evgeniy",
+        contact: "Telegram: @NeutrinoZh"
+    },
     header: {
         title: "NeutrinoZh",
         about: "About",
