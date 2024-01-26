@@ -1,49 +1,56 @@
 @import "../styles/consts.scss";
 
-.main {
+.header {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.block {
-    background-color: $color-block-primary;
-    border: solid 5px $color-block-secondary;
-    border-radius: 10px;
-
-    margin: 2%;
-    padding: 2%;
-    width: 40%;
-
-    @media (max-width: 979px) {
-        width: 50%;
-    }
-
-    @media (max-width: 768px) {
-        width: 100%;
-    }
-}
-
-.titleBlock {
-    display: flex;
-    justify-content: right;
-    text-align: left;
-
-    img {
-        max-height: 15vw;
-        max-width: 15vw;
-        border-radius: 50%;
-        margin: 5%;
-    }
+    justify-content: space-between;
 
     p {
         color: $color-dark;
         font-size: larger;
         font-weight: bold;
+
+        transition: color 0.4s;
+
+        &:hover {
+            color: $color-gray;
+        }
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .block {
+        margin: 2%;
+        padding: 2%;
+        width: 40%;
+
+        @media (max-width: 979px) {
+            width: 50%;
+        }
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
 
-    div.user {
-        background-color: red;
-        color: white;
+    .titleBlock {
+        display: flex;
+        justify-content: right;
+        text-align: left;
+
+        img {
+            max-height: 15vw;
+            max-width: 15vw;
+            border-radius: 50%;
+            margin: 5%;
+        }
+
+        p {
+            color: $color-dark;
+            font-size: larger;
+        }
     }
 }
