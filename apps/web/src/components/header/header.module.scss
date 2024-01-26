@@ -8,7 +8,7 @@
     border-bottom: 1px solid black;
 
     a {
-        margin: 1% 1% 2% 1%;
+        margin: 1% 2% 2% 1%;
 
         text-decoration: none;
         color: $color-dark;
@@ -20,12 +20,18 @@
         transition: color 0.4s;
 
         &:first-child {
-            color: red;
             margin-right: auto;
         }
 
         &:hover {
             color: $color-gray;
+        }
+
+
+        @media (max-width: 768px) {
+            &:last-child {
+                display: none;
+            }
         }
     }
 }

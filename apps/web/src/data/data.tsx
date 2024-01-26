@@ -5,7 +5,7 @@ const data = {
         job: "Unity Developer"
     },
     header: {
-        title: "NeutrinoZh's DevLog",
+        title: "NeutrinoZh",
         about: "About",
         gitHub: "GitHub"
     },

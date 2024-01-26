@@ -3,8 +3,8 @@ import data from "../../data/data";
 import styles from "./header.module.scss";
 
 const routes = {
-    home: "",
-    about: "about",
+    home: "/",
+    about: "/about",
     github: "https://github.com/NeutrinoZh",
 }
 

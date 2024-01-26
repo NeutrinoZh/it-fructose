@@ -1,3 +1,4 @@
+import PageWrapper from "../wrappers/page-wrapper";
 import styles from "./layout.module.scss";
 import React from "react";
 
@@ -8,7 +9,9 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={styles.rootLayout}>{children}</body>
+      <body className={styles.rootLayout}>
+        <PageWrapper>{children}</PageWrapper>
+      </body>
     </html>
   );
 }
