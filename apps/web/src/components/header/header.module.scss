@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0% 10%;
+
+    p {
+        color: $color-dark;
+        font-size: larger;
+        font-weight: bold;
+
+        transition: color 0.4s;
+
+        &:hover {
+            color: $color-gray;
+        }
+    }
+}
