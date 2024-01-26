@@ -14,7 +14,8 @@ const data = {
         gitHub: "GitHub"
     },
     page: {
-        description: `
+        lifestyleTitle: "Lifestyle",
+        lifestyle: `
 Programming is my passion because it allows me to craft expansive and extraordinary systems ⚙️.
 When combined with mathematics 📏, it truly feels like conjuring magic 🌈.
 Imagine what unfolds when we integrate physics 🧲 and biology 🔬. The only limit is one's imagination 🌌.
