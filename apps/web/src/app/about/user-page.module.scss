@@ -92,4 +92,20 @@
             }
         }
     }
+
+    .history {
+        padding-top: 5%;
+
+        h1 {
+            text-align: center;
+        }
+
+        .markdown {
+            line-height: 1.5em;
+
+            code {
+                font-family: 'Libre Franklin', -apple-system, 'Helvetica Neue', sans-serif;
+            }
+        }
+    }
 }
