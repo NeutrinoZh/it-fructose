@@ -6,6 +6,7 @@ const data = {
     },
     header: {
         title: "NeutrinoZh's DevLog",
+        about: "About",
         gitHub: "GitHub"
     },
     page: {

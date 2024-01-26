@@ -1,15 +1,28 @@
+@import "../../styles/consts.scss";
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     padding: 0% 10%;
+    border-bottom: 1px solid black;
 
-    p {
+    a {
+        margin: 1% 1% 2% 1%;
+
+        text-decoration: none;
         color: $color-dark;
         font-size: larger;
         font-weight: bold;
 
+        cursor: pointer;
+
         transition: color 0.4s;
+
+        &:first-child {
+            color: red;
+            margin-right: auto;
+        }
 
         &:hover {
             color: $color-gray;
