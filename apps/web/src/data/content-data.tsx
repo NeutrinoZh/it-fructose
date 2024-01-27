@@ -1,4 +1,4 @@
-const data = {
+const content = {
     user: {
         name: "Tertychniy Evgeniy",
         country: "Ukraine",
@@ -58,4 +58,4 @@ I remember that it was quite difficult for me to realize it then.
     }
 }
 
-export default data;
+export default content;
