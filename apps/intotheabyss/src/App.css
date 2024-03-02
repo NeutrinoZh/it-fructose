@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 80%;
+  min-height: 100vh;
+  padding: 3%;
+  font-size: 1.2em;
+  line-height: 200%;
+
+  color: black;
+  background-color: rgb(221, 221, 221);
+}
+
+h2 {
+  text-align: center;
+}
