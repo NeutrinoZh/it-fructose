@@ -6,41 +6,113 @@ const App = () => {
       <h2>Privacy Policy - Into the Abyss</h2>
       <i>Effective: Feb 28th, 2024</i>
       <p>
-        Let’s get right to the important part: Into the Abyss does not collect any personally identifiable information. <br />
-
-        I respect the privacy of our users and are committed to keeping their personal information safe and secure. This privacy policy explains how we collect, use and protect information collected from users of our application.
-
-        <h4>Information collected</h4>
-
-        When using our application we may collect the following types of information: <br />
-
-        Google Play Services Data: To obtain player name information or other game data, we may access this data. <br />
-
-        Anonymous Usage Data: We may collect anonymous usage data, such as frequency and duration of sessions, user in-app activities, and other analytics data to improve our app and provide a better user experience.  <br />
-
-        <h4>Use of collected information</h4>
-
-        We use the collected information for the following purposes: <br />
-
-        - Ensure application functionality, including interaction with Google Play Services for gaming features such as leaderboards. <br />
-        - Analyze application usage and improve its functionality and performance. <br />
-
-        <h4>Sharing information with third parties</h4>
-
-        We do not share personal information with third parties without the user's consent, except when necessary to provide the services described in our application or in accordance with the law.
-
-        <h4>Data protection</h4>
-
-        We take measures to protect users' personal information from unauthorized access, alteration, disclosure or destruction. We regularly check our systems for vulnerabilities and update them to ensure data security.
-
-        <h4>Changes to the privacy policy</h4>
-
-        We may update this privacy policy from time to time. We recommend that you review this page periodically for the latest updates. Changes take effect from the moment they are published on this page.
-
-        <h4>Contact us</h4>
-
-        If you have any questions or concerns regarding our privacy policy, please contact us at <a href='mailto:neutrinozhteam@gmail.com'>neutrinozhteam@gmail.com</a>
-
+        Evgeniy Tertychniy built the IntoTheAbyss app as
+        a Free app. This SERVICE is provided by
+        Evgeniy Tertychniy at no cost and is intended for use as
+        is.
+      </p> <p>
+        This page is used to inform visitors regarding my
+        policies with the collection, use, and disclosure of Personal
+        Information if anyone decided to use my Service.
+      </p> <p>
+        If you choose to use my Service, then you agree to
+        the collection and use of information in relation to this
+        policy. The Personal Information that I collect is
+        used for providing and improving the Service. I will not use or share your information with
+        anyone except as described in this Privacy Policy.
+      </p> <p>
+        The terms used in this Privacy Policy have the same meanings
+        as in our Terms and Conditions, which are accessible at
+        IntoTheAbyss unless otherwise defined in this Privacy Policy.
+      </p> <p><strong>Information Collection and Use</strong></p> <p>
+        For a better experience, while using our Service, I
+        may require you to provide us with certain personally
+        identifiable information. The information that
+        I request will be retained on your device and is not collected by me in any way.
+      </p>
+      <div>
+        <p>
+          The app does use third-party services that may collect
+          information used to identify you.
+        </p>
+        <p>
+          Link to the privacy policy of third-party service providers used
+          by the app
+        </p>
+        <ul>
+          <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+          <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity</a></li>
+        </ul>
+      </div>
+      <p><strong>Log Data</strong></p> <p>
+        I want to inform you that whenever you
+        use my Service, in a case of an error in the app
+        I collect data and information (through third-party
+        products) on your phone called Log Data. This Log Data may
+        include information such as your device Internet Protocol
+        (“IP”) address, device name, operating system version, the
+        configuration of the app when utilizing my Service,
+        the time and date of your use of the Service, and other
+        statistics.
+      </p> <p><strong>Cookies</strong></p> <p>
+        Cookies are files with a small amount of data that are
+        commonly used as anonymous unique identifiers. These are sent
+        to your browser from the websites that you visit and are
+        stored on your device's internal memory.
+      </p> <p>
+        This Service does not use these “cookies” explicitly. However,
+        the app may use third-party code and libraries that use
+        “cookies” to collect information and improve their services.
+        You have the option to either accept or refuse these cookies
+        and know when a cookie is being sent to your device. If you
+        choose to refuse our cookies, you may not be able to use some
+        portions of this Service.
+      </p> <p><strong>Service Providers</strong></p> <p>
+        I may employ third-party companies and
+        individuals due to the following reasons:
+      </p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p>
+        I want to inform users of this Service
+        that these third parties have access to their Personal
+        Information. The reason is to perform the tasks assigned to
+        them on our behalf. However, they are obligated not to
+        disclose or use the information for any other purpose.
+      </p> <p><strong>Security</strong></p> <p>
+        I value your trust in providing us your
+        Personal Information, thus we are striving to use commercially
+        acceptable means of protecting it. But remember that no method
+        of transmission over the internet, or method of electronic
+        storage is 100% secure and reliable, and I cannot
+        guarantee its absolute security.
+      </p> <p><strong>Links to Other Sites</strong></p> <p>
+        This Service may contain links to other sites. If you click on
+        a third-party link, you will be directed to that site. Note
+        that these external sites are not operated by me.
+        Therefore, I strongly advise you to review the
+        Privacy Policy of these websites. I have
+        no control over and assume no responsibility for the content,
+        privacy policies, or practices of any third-party sites or
+        services.
+      </p> <p><strong>Children’s Privacy</strong></p> <div><p>
+        These Services do not address anyone under the age of 13.
+        I do not knowingly collect personally
+        identifiable information from children under 13 years of age. In the case
+        I discover that a child under 13 has provided
+        me with personal information, I immediately
+        delete this from our servers. If you are a parent or guardian
+        and you are aware that your child has provided us with
+        personal information, please contact me so that
+        I will be able to do the necessary actions.
+      </p></div>
+      <p><strong>Changes to This Privacy Policy</strong></p> <p>
+        I may update our Privacy Policy from
+        time to time. Thus, you are advised to review this page
+        periodically for any changes. I will
+        notify you of any changes by posting the new Privacy Policy on
+        this page.
+      </p>
+      <p><strong>Contact Us</strong></p> <p>
+        If you have any questions or suggestions about my
+        Privacy Policy, do not hesitate to contact me at <a href='mailto:neutirnozhteam@gmail.com'>neutirnozhteam@gmail.com</a>.
       </p>
     </main>
   )
