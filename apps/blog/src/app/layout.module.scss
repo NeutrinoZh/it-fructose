@@ -5,4 +5,8 @@
     padding: 1% 0%;
     background-color: $color-background;
     font-family: 'Libre Franklin', -apple-system, 'Helvetica Neue', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
