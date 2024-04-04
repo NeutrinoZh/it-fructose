@@ -1,11 +1,18 @@
-import React from "react";
-import styles from "./page.module.scss";
-import Header from "../components/header/header";
+import remarkGfm from "remark-gfm";
+import api from "../api/api";
+import styles from "./page.module.scss"
+import Markdown from "react-markdown";
 
-export default function Home(): JSX.Element {
-  return (
-    <main className={styles.main}>
+export default async function Home() {
+  const listOfArticles = await api.getListOfArticles();
 
-    </main>
-  );
+  return (<>
+    { listOfArticles.map(item => <div>
+      <Markdown
+          remarkPlugins={[remarkGfm]}
+          className={styles.markdown}>
+          { item }
+      </Markdown>
+    </div>) }
+  </>)
 }

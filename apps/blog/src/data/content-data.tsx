@@ -10,7 +10,7 @@ const content = {
     },
     header: {
         title: "NeutrinoZh",
-        about: "About",
+        about: "About Me",
         gitHub: "GitHub"
     },
     pages: {

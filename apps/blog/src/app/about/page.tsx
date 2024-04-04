@@ -1,6 +1,7 @@
 import React from "react";
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import Image from 'next/image'
 
 import avatar from "../../../public/avatar.jpg"
 import content from "../../data/content-data"
@@ -11,7 +12,7 @@ export default function About(): JSX.Element {
         <main className={styles.about}>
             <div className={styles.user}>
                 <div className={styles.info}>
-                    <img src={avatar.src}></img>
+                    <Image src={avatar.src} alt="NeutrinoZh" width={200} height={260}/>
                     <div>
                         <p className={styles.name}>{content.user.name}</p>
                         <p className={styles.job}>{content.user.job}</p>
