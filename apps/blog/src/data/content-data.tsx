@@ -6,7 +6,7 @@ const content = {
     },
     footer: {
         author: "© Tertychniy Evgeniy 2024",
-        contact: "All projects on my blog are open source and made available to the public under the MIT license"
+        contact: ""
     },
     header: {
         title: "NeutrinoZh",

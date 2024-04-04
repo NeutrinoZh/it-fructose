@@ -3,13 +3,7 @@
 .block {
     margin: 2%;
     padding: 2%;
-    width: 40%;
+    width: 50%;
 
-    @media (max-width: 979px) {
-        width: 50%;
-    }
-
-    @media (max-width: 768px) {
-        width: 100%;
-    }
+    border: 1px solid black;
 }

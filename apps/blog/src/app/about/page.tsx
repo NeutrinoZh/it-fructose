@@ -9,7 +9,7 @@ import styles from "./user-page.module.scss";
 
 export default function About(): JSX.Element {
     return (
-        <main className={styles.about}>
+        <div className={styles.about}>
             <div className={styles.user}>
                 <div className={styles.info}>
                     <Image src={avatar.src} alt="NeutrinoZh" width={200} height={260}/>
@@ -31,6 +31,6 @@ export default function About(): JSX.Element {
                     {content.pages.about.history}
                 </Markdown>
             </div>
-        </main>
+        </div>
     )
 }
