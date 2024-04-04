@@ -14,7 +14,8 @@ export default async function Home() {
         <Markdown
             key={randomUUID()}
             remarkPlugins={[remarkGfm]}
-            className={styles.markdown}>
+            className={styles.markdown}
+        >
             { item }
         </Markdown>
       </Block>) }

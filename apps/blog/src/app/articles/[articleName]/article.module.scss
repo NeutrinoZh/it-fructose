@@ -1,0 +1,15 @@
+@import "../../../styles/consts.scss";
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .markdown {
+        margin: 2%;
+        padding: 2%;
+        width: 50%;
+
+        border: 1px solid black;
+    }
+}
