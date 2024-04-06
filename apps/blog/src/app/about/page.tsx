@@ -6,8 +6,11 @@ import Image from 'next/image'
 import avatar from "../../../public/avatar.jpg"
 import content from "../../data/content-data"
 import styles from "./user-page.module.scss";
+import api from "../../api/api";
 
-export default function About(): JSX.Element {
+export default async function About() {
+    const history = await api.getAbout();
+
     return (
         <div className={styles.about}>
             <div className={styles.user}>
@@ -28,7 +31,7 @@ export default function About(): JSX.Element {
                 <Markdown
                     remarkPlugins={[remarkGfm]}
                     className={styles.markdown}>
-                    {content.pages.about.history}
+                    {history}
                 </Markdown>
             </div>
         </div>

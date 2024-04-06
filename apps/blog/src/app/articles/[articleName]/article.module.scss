@@ -6,10 +6,23 @@
     align-items: center;
 
     .markdown {
+        border: 1px solid black;
+        
         margin: 2%;
         padding: 2%;
         width: 50%;
 
-        border: 1px solid black;
+        @media (max-width: 1380px) {
+            width: 70%;
+        }
+        
+        @media (max-width: 800px) {
+            width: 90%;
+        }
+
+        p {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
