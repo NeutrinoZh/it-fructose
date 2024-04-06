@@ -15,7 +15,7 @@ export default async function About() {
         <div className={styles.about}>
             <div className={styles.user}>
                 <div className={styles.info}>
-                    <Image src={avatar.src} alt="NeutrinoZh" width={200} height={260}/>
+                    <Image src={avatar.src} alt="NeutrinoZh" width={200} height={200}/>
                     <div>
                         <p className={styles.name}>{content.user.name}</p>
                         <p className={styles.job}>{content.user.job}</p>
