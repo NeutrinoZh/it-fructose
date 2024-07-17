@@ -10,15 +10,15 @@ export default async function Home() {
 
   return (<>
     <div className={styles.home}>
-      { listOfArticles.map(item =>
+      {listOfArticles.map(item =>
         <Block key={randomUUID()}>
           <Markdown
-              remarkPlugins={[remarkGfm]}
-              className={styles.markdown}
+            remarkPlugins={[remarkGfm]}
+            className={styles.markdown}
           >
-              { item }
+            {item}
           </Markdown>
-      </Block>) }
+        </Block>)}
     </div>
   </>)
 }
