@@ -10,9 +10,17 @@ import api from "../../api/api";
 import Block from "../../components/block/block";
 import { randomUUID } from "crypto";
 
+function chunkArray<T>(array: T[], chunkSize: number) {
+    let result: T[][] = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+        result.push(array.slice(i, i + chunkSize));
+    }
+    return result;
+}
+
 export default async function About() {
     const history = await api.getAbout();
-    const listOfProjects = await api.getPortfolioProjects();
+    const listOfProjects = chunkArray(await api.getPortfolioProjects(), 2);
 
     return (
         <div className={styles.about}>
@@ -33,14 +41,18 @@ export default async function About() {
                 <h1>{content.pages.about.portfolioTitle}</h1>
                 <div className={styles.portfolioContainer}>
                     {listOfProjects.map(item =>
-                        <Block key={randomUUID()}>
-                            <Markdown
-                                remarkPlugins={[remarkGfm]}
-                                className={styles.markdown}
-                            >
-                                {item}
-                            </Markdown>
-                        </Block>)}
+                        <div className={styles.portfolioRow}>
+                            {item.map(item => (
+                                <Block key={randomUUID()}>
+                                    <Markdown
+                                        remarkPlugins={[remarkGfm]}
+                                        className={styles.markdown}
+                                    >
+                                        {item}
+                                    </Markdown>
+                                </Block>
+                            ))}
+                        </div>)}
                 </div>
             </div>
             <div className={styles.history}>
