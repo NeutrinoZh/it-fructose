@@ -30,6 +30,7 @@
             .portfolioRow {
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
 
                 @media (max-width: 1080px) {
                     flex-direction: column;
