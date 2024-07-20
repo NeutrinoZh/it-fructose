@@ -22,7 +22,6 @@ export default async function About() {
     const history = await api.getAbout();
     const listOfProjects = chunkArray(await api.getPortfolioProjects(), 2);
 
-
     return (
         <div className={styles.about}>
             <div className={styles.user}>
