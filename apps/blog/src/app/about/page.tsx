@@ -65,14 +65,14 @@ export default async function About() {
                         </div>)}
                 </div>
             </div>
-            <div className={styles.history}>
+            {/* <div className={styles.history}>
                 <h1>{content.pages.about.historyTitle}</h1>
                 <Markdown
                     remarkPlugins={[remarkGfm]}
                     className={styles.markdown}>
                     {history}
                 </Markdown>
-            </div>
+            </div> */}
         </div>
     )
 }
