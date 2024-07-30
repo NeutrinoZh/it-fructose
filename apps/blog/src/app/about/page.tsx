@@ -40,7 +40,17 @@ export default async function About() {
             <div className={styles.portfolio}>
                 <h1>{content.pages.about.portfolioTitle}</h1>
                 <div className={styles.portfolioContainer}>
-                    {listOfProjects.map(item =>
+                    <div className={styles.portfolioRow}>
+                        <Block key={randomUUID()}>
+                            <Markdown
+                                remarkPlugins={[remarkGfm]}
+                                className={styles.markdown}
+                            >
+                                {listOfProjects[0]?.[0]}
+                            </Markdown>
+                        </Block>
+                    </div>
+                    {listOfProjects.slice(1).map(item =>
                         <div className={styles.portfolioRow}>
                             {item.map(item => (
                                 <Block key={randomUUID()}>
