@@ -24,7 +24,7 @@ export default async function About() {
 
     return (
         <div className={styles.about}>
-            <div className={styles.user}>
+            {/* <div className={styles.user}>
                 <div className={styles.info}>
                     <Image src={avatar.src} alt="NeutrinoZh" width={200} height={200} />
                     <div>
@@ -36,7 +36,7 @@ export default async function About() {
                     <p>{content.pages.about.lifestyleTitle}</p>
                     <p>{content.pages.about.lifestyle}</p>
                 </div>
-            </div>
+            </div> */}
             <div className={styles.portfolio}>
                 <h1>{content.pages.about.portfolioTitle}</h1>
                 <div className={styles.portfolioContainer}>
