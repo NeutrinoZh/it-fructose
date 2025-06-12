@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import avatar from "../../public/avatar.jpg"
 import ExtremeCatch from "../../public/ExtremeCatch.png"
-import Nda from "../../public/Nda.png"
+import Nda from "../../public/nda.png"
 import LostDino from "../../public/LostDino.png"
 import SpaceBac from "../../public/SpaceBac.png"
 import FarmFusion from "../../public/FarmFusion.png"
