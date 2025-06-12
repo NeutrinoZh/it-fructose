@@ -1,12 +1,33 @@
 @import "../styles/consts.scss";
 
 .rootLayout {
-    margin: 0px;
-    padding: 1% 0%;
+    margin: 2%;
+    padding: 1%;
+
+    width: 2000px;
+    margin: auto;
+
+    @media (max-width: 2500px) {
+        width: 1000px;
+    }
+
+    @media (max-width: 1040px) {
+        width: 95%;
+    }
+
     background-color: $color-background;
-    font-family: 'Libre Franklin', -apple-system, 'Helvetica Neue', sans-serif;
-    
+    color: $color-text;
+
+    font-family: 'Libre Franklin',
+    -apple-system,
+    'Helvetica Neue',
+    sans-serif;
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    a {
+        color: $color-secondary;
+    }
 }

@@ -1,12 +1,147 @@
 @import "../styles/consts.scss";
 
-.home {
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .markdown p {
-        display: flex;
-        flex-direction: column;
+    padding: 1% 0%;
+
+    .title {
+        padding: 2%;
+        margin: 1% 0%;
+        background-color: $color-primary;
+        border-radius: 12px;
+        border: $color-dark 4px solid;
+        font-family: monospace;
+        font-size: xx-large;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .portfolioRow {
+        @media (max-width: 1040px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .portfolio {
+        .portfolioRow {
+            display: flex;
+            gap: 1%;
+            margin-bottom: 2%;
+
+            .contacts {
+                width: 130%;
+
+                padding: 2%;
+                background-color: $color-primary;
+                border-radius: 12px;
+                border: $color-dark 4px solid;
+
+
+                @media (max-width: 1040px) {
+                    margin: 2%;
+                    width: 80%;
+                }
+
+                h2 {
+                    font-size: 1.5rem;
+                    color: $color-white;
+                    text-align: center;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        margin: 0.5rem 0;
+                        font-size: 1rem;
+
+                        &::before {
+                            content: "●";
+                            color: $color-secondary;
+                            display: inline-block;
+                            width: 1em;
+                            margin-right: 0.5em;
+                        }
+
+                        a {
+                            color: $color-text;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                        strong {
+                            font-weight: 600;
+                            margin-right: 0.25em;
+                        }
+                    }
+                }
+            }
+
+            .info {
+                .job {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    :first-child {
+                        font-size: x-large;
+                    }
+
+                    :last-child::before {
+                        content: "●";
+                        color: $color-secondary;
+                        margin-right: 0.5em;
+                    }
+                }
+
+                .infoRow {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .name {
+                        max-width: 60%;
+
+                        :first-child {
+                            color: $color-white;
+                            font-size: xx-large;
+                            margin: 0px;
+                        }
+                    }
+
+                    img {
+                        border-radius: 100%;
+                    }
+                }
+
+                padding: 2%;
+                background-color: $color-primary;
+                border-radius: 12px;
+                border: $color-dark 4px solid;
+            }
+        }
+
+        .portfolioContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .portfolioRow {
+                display: flex;
+                padding: 1% 0%;
+                gap: 1%;
+                margin-bottom: 0%;
+
+                width: 100%;
+            }
+        }
     }
 }

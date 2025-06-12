@@ -5,7 +5,7 @@ const content = {
         job: "Unity Developer"
     },
     footer: {
-        author: "© Tertychniy Evgeniy 2024",
+        author: "© Tertychniy Evgeniy 2025",
         contact: ""
     },
     header: {

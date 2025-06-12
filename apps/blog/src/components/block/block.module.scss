@@ -1,17 +1,44 @@
 @import "../../styles/consts.scss";
 
 .block {
-    margin: 2%;
-    padding: 2%;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
 
-    border: 1px solid black;
+    padding: 0% 2%;
 
-    @media (max-width: 1000px) {
-        width: 70%;
+    box-sizing: border-box;
+
+    min-width: 44%;
+    max-width: 50%;
+
+    background-color: $color-primary;
+    border-radius: 12px;
+    border: $color-dark 4px solid;
+
+    @media (max-width: 1040px) {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 2%;
     }
-    
-    @media (max-width: 768px) {
-        width: 90%;
+
+    a {
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    .poster {
+        height: 25vh;
+        width: auto;
+        position: relative;
+        margin: 3%;
+
+        @media (max-width: 1040px) {
+            height: 50vh;
+        }
+
+        img {
+            border-radius: 12px;
+            margin: auto;
+        }
     }
 }

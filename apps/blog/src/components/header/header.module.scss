@@ -1,37 +1,14 @@
 @import "../../styles/consts.scss";
 
 .header {
-    display: flex;
-    justify-content: flex-end;
+    background-color: $color-primary;
 
-    padding: 0% 10%;
-    border-bottom: 1px solid black;
+    border-radius: 10px;
+    border: $color-dark 4px solid;
 
-    a {
-        margin: 1% 2% 2% 1%;
+    text-align: center;
 
-        color: $color-dark;
-        text-decoration: none;
-        font-size: larger;
-
-        cursor: pointer;
-
-        transition: color 0.35s;
-
-        &:first-child {
-            margin-right: auto;
-            font-weight: 600;
-        }
-
-        &:hover {
-            color: $color-gray;
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            &:last-child {
-                display: none;
-            }
-        }
-    }
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: xx-large;
 }
