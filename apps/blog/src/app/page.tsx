@@ -67,7 +67,7 @@ export default async function Home() {
             <Block
               src={ExtremeCatch.src}
               title={"Extreme Catch: Boat Crab & Fishing Simulator"}
-              href={"https://store.playstation.com/uk-ua/product/UB1013-CUSA50977_00-0507990057334785"}
+              href={"https://www.youtube.com/watch?v=-Gb73ZnAcXI"}
               platforms={"PlayStation 4"}
               stack={"Unity, URP, Zenject, PlayStation SDK, Custom analytics services"}
               responsibilities={[
