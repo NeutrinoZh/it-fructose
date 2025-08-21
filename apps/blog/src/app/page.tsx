@@ -64,19 +64,23 @@ export default async function Home() {
                 "Integrated audio with WwiseSDK.",
                 "Debugged and resolved technical issues and bugs within the game"
               ]} />
+
             <Block
-              src={ExtremeCatch.src}
-              title={"Extreme Catch: Boat Crab & Fishing Simulator"}
-              href={"https://www.youtube.com/watch?v=-Gb73ZnAcXI"}
-              platforms={"PlayStation 4"}
-              stack={"Unity, URP, Zenject, PlayStation SDK, Custom analytics services"}
+              src={SpaceBac.src}
+              title={"SpaceBac"}
+              href={"https://store.steampowered.com/app/3605030/Space_Bac/"}
+              platforms={"PC (Steam)"}
+              stack={"Unity, SteamAPI, Zenject, PrimeTween, Input System"}
               responsibilities={[
-                "Developed systems for traps, bait, inventory, and environmental interactions",
-                "Used Zenject for dependency injection and modular game architecture",
-                "Worked with URP to configure lighting, shaders, and post-processing effects",
-                "Used Unity Profiler for CPU/GPU optimization",
-                "Created an intuitive and controller-friendly UI for PlayStation"
-              ]} />
+                "Developed and implemented core gameplay mechanics and systems",
+                "Designed and scripted player interactions with the environment",
+                "Collaborated with artists to integrate assets and polish the overall gameplay experience",
+                "Utilized Zenject for clean, modular, and maintainable code architecture",
+                "Assigned responsibilities and coordinated tasks across the development team",
+                "Optimized performance and memory usage for smooth gameplay on PC",
+                "Contributed to setting up the game’s Steam page and preparing assets for release",
+              ]}
+            />
           </div>
           <div className={styles.portfolioRow}>
             <Block
@@ -94,6 +98,35 @@ export default async function Home() {
                 "Collaborated with QA teams to triage and reproduce reported bugs from test builds."
               ]} />
             <Block
+              src={ExtremeCatch.src}
+              title={"Extreme Catch: Boat Crab & Fishing Simulator"}
+              href={"https://www.youtube.com/watch?v=-Gb73ZnAcXI"}
+              platforms={"PlayStation 4"}
+              stack={"Unity, URP, Zenject, PlayStation SDK, Custom analytics services"}
+              responsibilities={[
+                "Developed systems for traps, bait, inventory, and environmental interactions",
+                "Used Zenject for dependency injection and modular game architecture",
+                "Worked with URP to configure lighting, shaders, and post-processing effects",
+                "Used Unity Profiler for CPU/GPU optimization",
+                "Created an intuitive and controller-friendly UI for PlayStation"
+              ]} />
+          </div>
+          <div className={styles.portfolioRow}>
+            <Block
+              src={FarmFusion.src}
+              title={"Farm Fusion"}
+              href={"#"}
+              platforms={"Android, IOS"}
+              stack={"Unity, Zenject, Firebase, Google Play Services"}
+              responsibilities={[
+                "Utilized Zenject for clean dependency injection and modular, testable architecture",
+                "Integrated Unity's Input System to handle touch input for mobile gameplay",
+                "Integrated Google Play Services: achievements, cloud save, leaderboard, and sign-in.",
+                "Performed device testing on various screen sizes",
+                "Ensured performance stability on low-end Android devices",
+              ]}
+            />
+            <Block
               src={Nda.src}
               title={"NDA"}
               href={"#"}
@@ -110,37 +143,15 @@ export default async function Home() {
               ]} />
           </div>
         </div>
-        <div className={styles.title}>
+        {/* <div className={styles.title}>
           Own Projects
         </div>
         <div className={styles.portfolioContainer}>
           <div className={styles.portfolioRow}>
-            <Block
-              src={SpaceBac.src}
-              title={"SpaceBac (Preparation for release)"}
-              href={"https://neutrinozh.itch.io/spacebac"}
-              platforms={"Web, Windows (Steam)"}
-              stack={"Unity, SteamAPI, Zenject, PrimeTween, Input System"}
-              responsibilities={
-                "This game was created in 96 hours for the SpeedJam #9.  As the team lead, I developed and implemented most of the mechanics while working closely with the artists. I also assigned responsibilities and tasks within the team. My team and I really enjoyed the game we created during SpeedJam #9, so we’ve decided to continue developing it further. Right now, part of the team is working hard on setting up the game’s Steam page"
-              }
-            />
-            <Block
-              src={FarmFusion.src}
-              title={"Farm Fusion (In Development)"}
-              href={"#"}
-              platforms={"Android"}
-              stack={"Unity, Zenject, PrimeTween, Input System, Google Play Services"}
-              responsibilities={[
-                "Utilized Zenject for clean dependency injection and modular, testable architecture",
-                "Integrated Unity's Input System to handle touch input for mobile gameplay",
-                "Integrated Google Play Services: achievements, cloud save, leaderboard, and sign-in.",
-                "Performed device testing on various screen sizes",
-                "Ensured performance stability on low-end Android devices",
-              ]}
-            />
+
+
           </div>
-        </div>
+        </div> */}
         <div className={styles.title}>
           Jam Entries
         </div>
